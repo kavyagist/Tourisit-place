@@ -1,0 +1,29 @@
+nav{
+    background-color:hsl(from color h s l);
+    padding: 5px;
+    font-size: 25px;
+}
+nav a{
+color:blue;
+text-decoration:none;
+padding:5px 10px;
+display:inline-block;
+}
+nav a:hover{
+background-color:lightgray;
+color:black;
+}
+.image-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    justify-content: center;
+
+}
+.places{
+    width: 100%px;
+    height: 450px;
+    object-fit: cover;
+    
+}
+
